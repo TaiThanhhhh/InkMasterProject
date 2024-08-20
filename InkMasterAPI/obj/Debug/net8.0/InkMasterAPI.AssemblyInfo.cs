@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InkMasterAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b53a4f7bdafd77333a0fb2b88d72e96a23a05df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a7bf5a77b0eef6c593ebeaeb923aee77f9ff008")]
 [assembly: System.Reflection.AssemblyProductAttribute("InkMasterAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InkMasterAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

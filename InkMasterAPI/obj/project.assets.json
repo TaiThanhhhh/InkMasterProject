@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMasterAPI\\InkMasterAPI.csproj",
+      "projectUniqueName": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\InkMasterAPI.csproj",
       "projectName": "InkMasterAPI",
-      "projectPath": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMasterAPI\\InkMasterAPI.csproj",
+      "projectPath": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\InkMasterAPI.csproj",
       "packagesPath": "C:\\Users\\myfam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMasterAPI\\obj\\",
+      "outputPath": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

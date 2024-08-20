@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMasterAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|c:\\users\\myfam\\onedrive\\desktop\\inkmasterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|c:\\users\\myfam\\onedrive\\desktop\\inkmaster\\inkmasterapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|c:\\users\\myfam\\onedrive\\desktop\\inkmaster\\inkmasterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|c:\\users\\myfam\\onedrive\\desktop\\inkmasterapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|c:\\users\\myfam\\onedrive\\desktop\\inkmaster\\inkmasterapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|c:\\users\\myfam\\onedrive\\desktop\\inkmasterapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|c:\\users\\myfam\\onedrive\\desktop\\inkmaster\\inkmasterapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CECB44D-B3F1-4B11-8ECD-7363765F7A30}|InkMasterAPI.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +34,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMasterAPI\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMasterAPI\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T03:12:02.908Z",
+              "WhenOpened": "2024-08-20T03:50:17.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMasterAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMasterAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T03:12:02.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T03:11:39.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMasterAPI\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMasterAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\myfam\\OneDrive\\Desktop\\InkMaster\\InkMasterAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T03:11:31.107Z",
               "EditorCaption": ""
