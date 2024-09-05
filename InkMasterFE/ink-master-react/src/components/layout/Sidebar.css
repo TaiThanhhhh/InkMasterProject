@@ -1,0 +1,87 @@
+/* Sidebar container */
+.sidebar {
+  background: linear-gradient(180deg, #1D8CF8, #3358FF);
+  position: fixed;
+  top: -60px; /* Shift it up by 10px */
+  left: -15px;
+  height: calc(85vh + 90px); /* Adjust height to account for the upward shift */ /* Đảm bảo sidebar chiếm toàn bộ chiều cao của viewport */
+  width: 250px; /* Đảm bảo độ rộng cố định */
+  padding: 20px 0; /* Thêm padding trên và dưới */
+  color: #fff;
+  z-index: 1000; /* Đảm bảo nó nằm trên các nội dung khác */
+  display: flex;
+  overflow: hidden; /* Disable all scrolling */
+  flex-direction: column;
+}
+
+.table-responsive {
+  overflow-x: hidden; /* Đảm bảo không có cuộn ngang */
+}
+
+.table {
+  width: 100%; /* Chiếm hết chiều rộng container */
+  table-layout: auto; /* Cho phép các cột tự động mở rộng theo nội dung */
+}
+
+.table td,
+.table th {
+  word-wrap: break-word; /* Cho phép các từ xuống dòng nếu quá dài */
+  white-space: normal; /* Cho phép các từ xuống dòng */
+}
+
+/* Logo styles */
+.sidebar .logo {
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Navigation link styles */
+.nav-link {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+/* Active state styling */
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Hover state styling */
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Icon inside the nav-link */
+.nav-link i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.title {
+  white-space: nowrap; /* Ngăn văn bản xuống dòng */
+  overflow: hidden; /* Ẩn phần tràn ra ngoài */
+  text-overflow: ellipsis; /* Hiển thị dấu "..." khi văn bản bị cắt */
+  display: block; /* Đảm bảo rằng nó là phần tử khối */
+  position: relative; /* Đảm bảo phần tử tooltip hiển thị đúng */
+}
+
+.title:hover::after {
+  content: attr(data-fulltext); /* Lấy toàn bộ văn bản đầy đủ từ thuộc tính data-fulltext */
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8); /* Màu nền của tooltip */
+  color: #fff; /* Màu chữ của tooltip */
+  padding: 5px;
+  border-radius: 5px;
+  top: -25px; /* Điều chỉnh vị trí tooltip */
+  left: 0;
+  white-space: normal; /* Đảm bảo văn bản trong tooltip không bị cắt */
+  z-index: 10; /* Đảm bảo tooltip nằm trên các phần tử khác */
+  display: inline-block;
+  max-width: 250px;
+  word-wrap: break-word;
+}

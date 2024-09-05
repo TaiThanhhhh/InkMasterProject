@@ -1,0 +1,98 @@
+/* Ensure the content and sidebar occupy the full height */
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #1d2531;
+  position: fixed;
+  width: 250px;
+  height: 100vh; /* Ensures sidebar height matches the viewport */
+  z-index: 10;
+  padding-top: 20px;
+  overflow: hidden; /* Disable all scrolling */
+}
+
+/* Sidebar Link Styles */
+.sidebar .nav-link {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .nav-link.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* Main content */
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+  background-color: #1e1e2f;
+  color: #fff;
+  min-height: 100vh;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: auto; /* Enable vertical scroll if necessary */
+}
+
+/* Flexbox for dashboard containers */
+.dashboard-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden; /* Disable all scrolling */
+}
+
+/* Chart Area */
+.chart-area {
+  position: relative;
+  height: 350px;
+}
+
+/* Table Responsive Styling */
+.table-responsive {
+  overflow: hidden; /* Ensure no horizontal scroll */
+  white-space: normal; /* Allow text to wrap inside the table */
+}
+
+.table {
+  width: 100%; /* Ensure table takes full width of the container */
+  table-layout: fixed; /* Fix table layout to prevent overflow */
+}
+
+/* Task List */
+.table-full-width {
+  overflow-x: hidden; /* Ensure no horizontal scroll */
+  white-space: normal; /* Allow text to wrap */
+}
+
+.table td,
+.table th {
+  word-wrap: break-word; /* Ensure text breaks to the next line if too long */
+}
+
+.table {
+  width: 100%; /* Ensure table takes full width of the container */
+  table-layout: fixed; /* Fix table layout to prevent overflow */
+}
+
+/* Task Title */
+.table td .title {
+  word-break: break-word; /* Ensure long titles break to the next line */
+}
+
+/* Card Styling */
+.card {
+  overflow: hidden; /* Disable all scrolling */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure the content inside the card does not cause overflow */
+.card-body {
+  overflow: hidden; /* Disable scrolling inside the card body */
+  flex: 1; /* Allow card-body to take up available space */
+}
